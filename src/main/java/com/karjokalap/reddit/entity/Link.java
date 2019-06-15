@@ -1,4 +1,4 @@
-package com.karjokalap.reddit.model;
+package com.karjokalap.reddit.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

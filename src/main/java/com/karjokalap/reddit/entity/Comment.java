@@ -9,7 +9,7 @@ import java.io.Serializable;
 @Entity
 @Data
 @NoArgsConstructor
-public class Comment implements Serializable {
+public class Comment extends Auditable implements Serializable {
 
     @Id
     @GeneratedValue

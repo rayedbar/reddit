@@ -11,7 +11,7 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
-public class Link implements Serializable {
+public class Link extends Auditable implements Serializable {
 
     @Id
     @GeneratedValue

@@ -12,7 +12,7 @@ import java.io.Serializable;
 @Entity
 @Data
 @NoArgsConstructor
-public class Vote implements Serializable {
+public class Vote extends Auditable implements Serializable {
 
     @Id
     @GeneratedValue
